@@ -1,12 +1,42 @@
-# React + Vite
+# 📒 Agenda de Contatos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação simples de agenda de contatos desenvolvida com **React.js**, utilizando **Redux Toolkit** para o gerenciamento de estado global e **styled-components** para o estilo. A aplicação permite **adicionar, editar e remover** contatos — servindo como uma ótima base de aprendizado para quem está iniciando com Redux na prática.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**
+- **Redux Toolkit**
+- **Styled-components**
 
-## Expanding the ESLint configuration
+## 🔧 Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o projeto:
+   ```bash
+   npm run dev
+   ```
+
+## ⚙️ Funcionalidades
+
+- Adicionar um novo contato com nome, email e telefone
+- Editar contatos existentes
+- Remover contatos
+- Validação básica de número de telefone
+- Controle de duplicidade de contatos
+- Interface moderna com styled-components
+- Toda a lógica de estado é gerenciada pelo Redux Toolkit
+
+## 🎯 Objetivo
+
+O principal objetivo do projeto é **praticar Redux Toolkit** integrado ao React, explorando também a modularização com `createSlice`, `useSelector`, `useDispatch`. 
+
+## 👨‍💻 Autor
+
+- **Augusto Cappra**
